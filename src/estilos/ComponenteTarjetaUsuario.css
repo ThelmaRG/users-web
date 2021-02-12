@@ -1,0 +1,96 @@
+.Contenedor-Tarjeta {
+    background: white ;
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    height: auto;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #5b5b5c;
+}
+
+.Contenedor-Texto {
+    background: transparent ;
+    display: flex;
+    flex-direction: column;
+    flex: 8;
+    height: auto;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.Contenedor-Img {
+    background: transparent ;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+}
+
+.Imagen {
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+
+
+.Nombre {
+    font-size: calc(8px + 2vmin);
+    color: #282c34;
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-weight: bold;
+}
+
+.Texto {
+    font-size: calc(5px + 2vmin);
+    color: #282c34;
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-weight: normal;
+    margin-right: 20px;
+}
+
+.Icono {
+    height: 8vmin;
+    margin: 0px;
+}
+
+.Icono-Editar {
+    height: 7.5vmin;
+    margin: 0px;
+}
+.Contenedor-Texto-Grande {
+    background: transparent ;
+    display: flex;
+    flex-direction: column;
+    flex: 7;
+    background: transparent ;
+    height: auto;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Contenedor-Img-Grande {
+    background: transparent ;
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+}
+.Imagen-Grande {
+    width: 30vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 200px;
+}

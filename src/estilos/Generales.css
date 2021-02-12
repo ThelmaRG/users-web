@@ -1,0 +1,127 @@
+.Contenedor-Principal {
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+.Contenedor-Encabezado-Principal {
+    background-color: #282c34;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    font-family: 'Segoe UI';
+    text-align: center;
+}  
+
+.App-logo {
+    height: 20vmin;
+    pointer-events: none;
+    margin: 10px;
+}
+  
+.Contenedor-Vertical {
+  background-color: transparent;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} 
+
+.Contenedor-Horizontal {
+  background-color: transparent;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+} 
+
+
+.Letra-Texto-Normal {
+font-size: calc(5px + 1vmin);
+color: #282c34;
+font-family: 'Segoe UI';
+text-align: center;
+}
+
+.Letra-Texto-Negrita {
+  font-size: calc(5px + 2vmin);
+  color: #282c34;
+  font-family: 'Segoe UI';
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.Boton{
+  width:auto;
+  height: 35px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #282c34;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Segoe UI';
+  font-weight: bold;
+  background-color: transparent;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #282c34;
+}
+
+.Boton-Cerrar{
+  width:auto;
+  height: 35px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #5b5b5c;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Segoe UI';
+  font-weight: bold;
+  background-color: transparent;
+  border-style: none;
+  text-decoration: underline;
+  border-radius: 20px;
+  border-color: #282c34;
+}
+
+.Caja-Texto{
+  width: 100px;
+  height: 35px;
+  font-size: calc(3px + 2vmin);
+  color: #282c34;
+  font-family: 'Segoe UI';
+  border-style: solid;
+  border-color: #5b5b5c;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 2px;
+}
+
+.Caja-Texto-Nombre{
+  width: 300px;
+  height: 35px;
+  font-size: calc(3px + 2vmin);
+  color: #282c34;
+  font-family: 'Segoe UI';
+  border-style: solid;
+  border-color: #5b5b5c;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 2px;
+}
+
+.Seleccion{
+  width: 100px;
+  height: 35px;
+  font-size: calc(2px + 2vmin);
+  color: #282c34;
+  font-family: 'Segoe UI';
+  border-style: solid;
+  border-color: #5b5b5c;
+  border-width: 2px;
+  margin-left: 10px;
+  border-radius: 5px;
+} 
