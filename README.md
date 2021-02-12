@@ -10,7 +10,7 @@
 ## Estructura de carpetas del proyecto
 
 - src
-	-	**componentes** (Componentes desarrollados en React Native)
+	-	**componentes** (Componentes desarrollados en React JS)
   -	**estilos** (Estilos de elementos visuales dentro de cada pantalla o componente)
 	-	**recursos** (Recursos multimedia)
 	-	**servicios** (Clases de llamadas y consultas de Servicios REST)
